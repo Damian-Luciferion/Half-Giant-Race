@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<elements>
+	<info>
+		<name>Half Giant</name>
+		<description></description>
+	    <update version="1.0">
+			<file name="race-HalfGiant.xml" url=""/>
+		</update>
+	</info>
+
+  <element name="Half Giant" type="Race" source="Homebrew" id="ID_HMBRW_RACE_HALF-GIANT">
+    <description>
+      <h4>HALF GIANT</h4>
+      <p>Half-giants are widely known for their physical abilities, and for their ability to deal heavy damage to foes during combat, but they are typically shunned by many people for their hulking figures and often simplistic views on life and goals. This is not to say that half-giants are stupid, as many of them, especially storm half-giants can have great intellect, but because of their ability to muscle through problems, they typically do not worry too much about details, and feel they can just plow right on to their goals.
+
+The main thing a half-giant wants in life is acceptance from giants, humans, or both. Some Half-Giants attempt to gain acceptance by accomplishing heroic deeds. Half-giants who are raised among the giant culture will attempt to gain acceptance by honing their combat skills to perfection. Adventuring typically allows them to hone their combat skills and accomplish heroic deeds at the same time, so most Half-Giants who get the chance to will gladly join an adventuring party.</p> 
+      <span class="feature">Ability Score Increase.</span>Your Strength score increases by 2<br/>
+      <span class="feature">Age.</span>Half giants mature somewhere around 20, and live about 125 to 350 years depending on their lineage.<br/>
+	  <span class="feature">Alignment</span>Half giants feel the influence of the Ordening in their day to day lives, albeit much weaker than other giantkin. Because of this, some half giants are inclined to the nature of their ancestors, but most act similar to what society they were raised in.<br/>
+      <span class="feature">Size.</span>The smallest half giant easily dwarfs the largest human. They stand around 10 feet tall and weigh around 1,000 pounds. Your size is medium.<br/>
+      <span class="feature">Speed.</span>Your base walking speed is 35 feet.<br/>
+      <span class="feature">Powerful Build.</span>You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.<br/>
+      <span class="feature">Naturally Perceptive.</span>Giants are perceptive beings, and half giants are no different. You have proficiency in the Perception skill.<br/>
+    </description>
+    <sheet display="false"/>
+    <supports />
+    <setters>
+      <set name="height" modifier="6d12">7'0"</set>
+      <set name="weight" modifier="6d12">400 lb.</set>
+    </setters>
+    <rules>
+      <stat name="strengh" value="2"/>
+      <stat name="innate speed" value="35" bonus="base"/>
+      <grant type="Size" id="ID_SIZE_MEDIUM" />
+      <grant type="Language" id="ID_LANGUAGE_COMMON" />
+      <select type="Language" name="ID_LANGUAGE_GIANT" />
+      <grant type="Racial Trait" id="ID_HMBRW_RACIAL_TRAIT_HALF-GIANT_Powerful-Build" />
+    </rules>
+  </element>
+  
+   <element name="Powerful Build" type="Racial Trait" source="Homebrew" id="ID_HMBRW_RACIAL_HALF-GIANT_Powerful-Build">
+    <description>
+			<p> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</p>
+		</description>
+		<sheet display="false">
+			<description> You count as one size larger when determining your carrying capacity and the weight you can push, drag, or lift.</description>
+		</sheet>
+  </element>
+</elements>
