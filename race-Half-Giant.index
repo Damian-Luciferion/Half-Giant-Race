@@ -4,7 +4,8 @@
 		<name>Half Giant</name>
 		<description></description>
 	    <update version="1.0">
-			<file name="race-HalfGiant.xml" url=""/>
+			<file name="race-HalfGiant.index
+				    " url=""/>
 		</update>
 	</info>
 
