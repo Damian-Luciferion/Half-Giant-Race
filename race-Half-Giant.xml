@@ -5,7 +5,7 @@
 		<description></description>
 	    <update version="1.0">
 			<file name="race-HalfGiant.xml
-				    " url=""/>
+				    " url="https://raw.githubusercontent.com/Damian-Luciferion/Half-Giant-Race/main/race-Half-Giant.xml"/>
 		</update>
 	</info>
 
